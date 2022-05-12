@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+/* * I'm a global selector */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+#unique {
+	color: red;
+}
+
+.subtitle {
+	color: purple;
+}
+
+p {
+	color: blue;
+}

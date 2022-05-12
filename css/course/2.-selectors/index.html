@@ -6,10 +6,48 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
+<!-- *: I'm a general selector, but at the same time I'm pass my properties to my children. -->
 
 <body>
 
+
+  <!-- * My font is inherit from my parent (body). -->
+  <h1 id="unique">I'm an <code>ID</code> selector</h1>
+  <h2 class="subtitle">I'm a class selector</h2>
+
+  <!-- * I'm a general selector -->
+  <p>Soy un párrafo</p>
+  <p>Soy un párrafo</p>
+  <p>Soy un párrafo</p>
+
+
+  <!-- Todo: Don't use me -->
+  <div style="background-color: pink; width: 50px; height: 50px;"></div>
+
+  <!-- Todo: Don't use me too -->
+  <style>
+    section {
+      background-color: yellow;
+      width: 50px;
+      height: 50px;
+    }
+  </style>
+
+  <section></section>
+
+  <!-- * Remember -->
+  <!-- One of the most important things about css is that it's a cascading style sheet.So each selector has its own
+  importance. -->
+
+  <!-- 1.-Inline selectors
+  2.-Id selectors
+  3.-Class selectors
+  4.-Tag selectors or general selectors
+  5.-Inheritance selectors
+  6.-Default browser selectors -->
 
 
 </body>
