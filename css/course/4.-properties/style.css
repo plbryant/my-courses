@@ -7,4 +7,17 @@
 
 body {
 	font-family: "Montserrat", sans-serif;
+	margin-left: 25vw;
+	margin-top: 10vh;
+}
+
+a {
+	font-weight: bold;
+	font-size: 40px;
+}
+
+img {
+	width: 50%;
+	margin-top: 20px;
+	display: block;
 }
