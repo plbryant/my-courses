@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  background-color: rgb(224, 182, 182);
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  color: red;
+}
+
+.headline {
+  font-family: fantasy;
+  color: rgb(99, 48, 32);
+}
+
+.introduction {
+  color: green;
+}
+
+.caja {
+  color: white;
+}
+
+.caja__instruction {
+  padding: 0px;
+}
+
+.caja__element {
+  background-color: rgba(12, 51, 87, 0.884);
+  list-style: none;
+}
+
+.caja__element--only {
+  background-color: black;
+}
+
+.btn {
+  padding: 10px;
+  background-color: rgb(8, 5, 10);
+  font-family: 'PT Sans', sans-serif;
+  color: rgb(197, 185, 16);
+  border-radius: 10px;
+}
