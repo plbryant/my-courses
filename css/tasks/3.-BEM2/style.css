@@ -55,6 +55,10 @@ body {
   display: inline-block;
 }
 
+.articulo--diferente .articulo__descripcion {
+  font-weight: bold;
+}
+
 .articulo__contenedor-imagen {
   width: 400px;
 }
